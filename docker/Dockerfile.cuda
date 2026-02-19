@@ -67,7 +67,7 @@ ARG PPLX_KERNELS_REPO="https://github.com/perplexityai/pplx-kernels"
 ARG PPLX_KERNELS_VERSION="2bd6e30fab358829bd01d1c0907be8088ff9e5e1"
 
 ARG FLASHINFER_REPO="https://github.com/flashinfer-ai/flashinfer.git"
-ARG FLASHINFER_VERSION="v0.6.3"
+ARG FLASHINFER_VERSION="v0.6.1"
 
 # vLLM build settings - provided via build args from docker/vllm-version file
 # Override here for platform-specific testing or via build args
@@ -78,9 +78,9 @@ ARG VLLM_PREBUILT
 ARG VLLM_USE_PRECOMPILED
 # vLLM build settings
 # Commit on feature branch in my repo.
-ARG VLLM_REPO="https://github.com/fangyuchu/vllm.git"
-ARG VLLM_COMMIT_SHA="52d53fb5935b2714bedd33f95be4f3968a9bdd45"
-ARG VLLM_PRECOMPILED_WHEEL_COMMIT="d1ea65d0a1c606ae041b73fd45ccd33980ca08e7"
+ARG VLLM_REPO="https://github.com/jtechapps/vllm-1.git"
+ARG VLLM_COMMIT_SHA="7d330dc6945397801b87c89ebe7c5052eb0b7f6f"
+ARG VLLM_PRECOMPILED_WHEEL_COMMIT="c487a8eef4d89d858c68f4262da14b1940abf950"
 ARG VLLM_PREBUILT=0
 ARG VLLM_USE_PRECOMPILED=1
 
